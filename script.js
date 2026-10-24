@@ -1,7 +1,5 @@
 
-/* =========================
-   1. Mobile Navigation
-========================= */
+/* 1. Mobile Navigation */
 
 var menuToggle = document.getElementById("menu-toggle");
 var navLinks = document.getElementById("nav-links");
@@ -34,9 +32,8 @@ navItems.forEach(function (item) {
     });
 });
 
-/* =========================
-   2. Home Page Recipe Search
-========================= */
+
+/* 2. Home Page Recipe Search */
 
 var searchForm = document.getElementById("recipe-search");
 var searchInput = document.getElementById("search-input");
@@ -52,6 +49,7 @@ function searchRecipes() {
         var recipeDetails = card.getAttribute("data-search").toLowerCase();
 
         if (
+            searchText === "" ||
             recipeName.includes(searchText) ||
             recipeDetails.includes(searchText)
         ) {

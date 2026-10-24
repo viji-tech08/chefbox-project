@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +8,24 @@
     <title>ChefBox | Good Food, Made Simple</title>
     <meta name="description" content="Discover delicious recipes and get inspired with ChefBox.">
 
-   
-<!-- Google Fonts: Poppins + Playfair Display -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts: Poppins + Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- Navbar -->
     <header class="navbar">
         <a href="#home" class="logo">Chef<span>Box.</span></a>
 
-        <button class="menu-toggle" id="menu-toggle"
-            aria-label="Open navigation menu"
-            aria-expanded="false"
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"
             aria-controls="nav-links">
             ☰
         </button>
@@ -34,6 +35,9 @@
             <a href="#categories">Categories</a>
             <a href="#recommendations">Recipes</a>
             <a href="#meal-planner">Meal Planner</a>
+
+            <!-- Login Button -->
+            <a href="#login" class="login-btn">Login</a>
         </nav>
     </header>
 
@@ -63,12 +67,8 @@
                 <form class="hero-search" id="recipe-search">
                     <span class="search-icon" aria-hidden="true">⌕</span>
 
-                    <input
-                        type="search"
-                        id="search-input"
-                        placeholder="Search recipes or ingredients..."
-                        aria-label="Search recipes or ingredients"
-                    >
+                    <input type="search" id="search-input" placeholder="Search recipes or ingredients..."
+                        aria-label="Search recipes or ingredients">
 
                     <button type="submit">Search</button>
                 </form>
@@ -89,11 +89,8 @@
 
             <div class="category-grid">
                 <a href="#recommendations" class="category-card">
-                    <img
-                        src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=600&q=80"
-                        alt="Breakfast pancakes"
-                        loading="lazy"
-                    >
+                    <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=600&q=80"
+                        alt="Breakfast pancakes" loading="lazy">
                     <div class="category-overlay">
                         <h3>Breakfast</h3>
                         <span>Start your day right</span>
@@ -101,11 +98,8 @@
                 </a>
 
                 <a href="#recommendations" class="category-card">
-                    <img
-                        src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80"
-                        alt="Fresh lunch bowl"
-                        loading="lazy"
-                    >
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80"
+                        alt="Fresh lunch bowl" loading="lazy">
                     <div class="category-overlay">
                         <h3>Lunch</h3>
                         <span>Make midday delicious</span>
@@ -113,11 +107,8 @@
                 </a>
 
                 <a href="#recommendations" class="category-card">
-                    <img
-                        src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80"
-                        alt="Pasta dinner"
-                        loading="lazy"
-                    >
+                    <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=600&q=80"
+                        alt="Pasta dinner" loading="lazy">
                     <div class="category-overlay">
                         <h3>Dinner</h3>
                         <span>End the day beautifully</span>
@@ -125,11 +116,8 @@
                 </a>
 
                 <a href="#recommendations" class="category-card">
-                    <img
-                        src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80"
-                        alt="Sweet dessert"
-                        loading="lazy"
-                    >
+                    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80"
+                        alt="Sweet dessert" loading="lazy">
                     <div class="category-overlay">
                         <h3>Desserts</h3>
                         <span>A little something sweet</span>
@@ -150,11 +138,8 @@
 
                 <article class="recipe-card" data-search="masala omelette egg breakfast quick easy">
                     <div class="recipe-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=700&q=80"
-                            alt="Omelette breakfast"
-                            loading="lazy"
-                        >
+                        <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=700&q=80"
+                            alt="Omelette breakfast" loading="lazy">
                         <span class="recipe-label">QUICK & EASY</span>
                     </div>
                     <div class="recipe-info">
@@ -172,11 +157,8 @@
 
                 <article class="recipe-card" data-search="vegetable veg fried rice rice lunch easy">
                     <div class="recipe-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=700&q=80"
-                            alt="Vegetable fried rice"
-                            loading="lazy"
-                        >
+                        <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=700&q=80"
+                            alt="Vegetable fried rice" loading="lazy">
                         <span class="recipe-label">POPULAR</span>
                     </div>
                     <div class="recipe-info">
@@ -194,11 +176,8 @@
 
                 <article class="recipe-card" data-search="herb pasta tomato basil dinner italian medium">
                     <div class="recipe-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80"
-                            alt="Herb pasta"
-                            loading="lazy"
-                        >
+                        <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80"
+                            alt="Herb pasta" loading="lazy">
                         <span class="recipe-label">CHEF'S PICK</span>
                     </div>
                     <div class="recipe-info">
@@ -216,11 +195,8 @@
 
                 <article class="recipe-card" data-search="golden pancakes sweet breakfast dessert easy">
                     <div class="recipe-image">
-                        <img
-                            src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=700&q=80"
-                            alt="Golden pancakes"
-                            loading="lazy"
-                        >
+                        <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=700&q=80"
+                            alt="Golden pancakes" loading="lazy">
                         <span class="recipe-label">SWEET TREAT</span>
                     </div>
                     <div class="recipe-info">
@@ -283,4 +259,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
